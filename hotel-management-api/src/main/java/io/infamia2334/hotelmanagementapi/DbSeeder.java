@@ -38,7 +38,7 @@ public class DbSeeder implements CommandLineRunner {
         );
 
         Hotel inferiorBhopali = new Hotel(
-            "ITC Sonar Bangla",
+            "Inferior Bhopali Hotel",
             650,
             new Address("Bhopal", "India"),
             Arrays.asList(
@@ -47,11 +47,13 @@ public class DbSeeder implements CommandLineRunner {
             )
         );
         //drop all hotels
-        this.hotelRepository.deleteAll();
+        this.
+        hotelRepository.deleteAll();
 
         //adding hotels
         List<Hotel> hotels = Arrays.asList(marriot, itc, inferiorBhopali);
-        this.hotelRepository.saveAll(hotels);
+        this.
+        hotelRepository.saveAll(hotels);
         
     }
     
